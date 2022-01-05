@@ -4,8 +4,8 @@ const ListTodo = ({ todos, deleteTodo }) => {
     <ul>
       {todos && todos.length > 0 ? (
         todos.map(todo=>{return(
-          <li key={todo._id} onClick={()=>deleteTodo(todo._id)}>{todo.action}</li>
-        )})) : (<li>No entries left</li>)
+          <li key={todo._id} >{todo.action} <a href="/#" onClick={()=>deleteTodo(todo._id)}> Remove</a></li>
+        )})) : (<li>There isn't anything to do <br/>( ˘ ɜ˘) ♬ ♪ ♫</li>)
       }
     </ul>
   )
