@@ -5,7 +5,7 @@ const ListTodo = ({ todos, deleteTodo }) => {
       {todos && todos.length > 0 ? (
         todos.map(todo=>{return(
           <li key={todo._id} onClick={()=>deleteTodo(todo._id)}>{todo.action}</li>
-        )}):(<li>No Todo(s) left</li>)
+        )})) : (<li>No entries left</li>)
       }
     </ul>
   )

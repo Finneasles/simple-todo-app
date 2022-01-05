@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+
 class Input extends Component {
   state = {
     action: ''
@@ -19,17 +20,18 @@ class Input extends Component {
       console.log("Input field is required");
     }
   }
-  handleChange(e) => {
+  handleChange = (e) =>{
     this.setState({
       action: e.target.value
     })
   }
+
   render(){
     let { action } = this.state;
       return(
         <div>
           <input type="text" onChange={this.handleChange} value={action} />
-          <button onClick={this.addTodo}>Add Todo</button>
+          <button onClick={this.addTodo}>Add Entry</button>
         </div>
       )
     }

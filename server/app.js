@@ -7,9 +7,15 @@ var db = require('./db/server.js');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var ApiRoute = require('./routes/api');
+var cors = require('cors');
 
 var app = express();
 
+var corsOptions = {
+    origin: 'http://localhost:4000'
+  }
+
+app.use(cors(corsOptions));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
