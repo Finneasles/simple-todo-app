@@ -1,1 +1,8 @@
-  command = "CI= npm run build"
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/api/todos/*"
+  to = "https://simple-mern-todo-app.herokuapp.com/api/todos/:splat"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify",Access-Control-Allow-Origin = "*"}
+  signed = "API_SIGNATURE_TOKEN"

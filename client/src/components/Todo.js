@@ -6,9 +6,11 @@ class Todo extends Component {
   state = {
     todos: []
   }
-  componentDidMont(){
+
+  componentDidUpdate() {
     this.getTodos();
   }
+
   getTodos = () => {
     axios.get('/api/todos')
       .then(res => {
@@ -29,7 +31,6 @@ class Todo extends Component {
  }
 render(){
   let { todos } = this.state;
-  
   return(
     <div>
       <h1>My Todo List</h1>
@@ -39,4 +40,5 @@ render(){
     )
   }
 }
+
 export default Todo;
