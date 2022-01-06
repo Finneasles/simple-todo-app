@@ -42,14 +42,18 @@ class Input extends Component {
 
   render() {
     let { action } = this.state;
-    axios
-    .post("/api/todos") //This is where proxy helps
-    .then((res) => {
-      if (res.data) {
-        this.props.getTodos();
-      }
-    })
-    .catch((err) => console.log(err));
+    let i = 0;
+    if( i === 0 )(
+      axios
+      .post("/api/todos") //This is where proxy helps
+      .then((res) => {
+        if (res.data) {
+          this.props.getTodos();
+        }
+      })
+      .catch((err) => console.log(err))
+    );
+
     return (
       <div>
         <input type="text" onChange={this.handleChange} value={action} />
