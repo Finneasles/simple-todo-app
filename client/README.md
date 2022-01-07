@@ -9,15 +9,13 @@ A simple client using React
 ---
 
 ## Prerequisites 
-*    [NodeJS](https://nodejs.org/en/)
-*    [MongoDB](https://www.mongodb.com/atlas/database)
+* [NodeJS](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/atlas/database)
 
 ## Technologies 
-*    [React](https://reactjs.org/)
-*    [Axios](https://axios-http.com/)
-
-*    [MUI](https://mui.com/)
-
+* [React](https://reactjs.org/)
+* [Axios](https://axios-http.com/)
+* [MUI](https://mui.com/)
 
 ## Run the Client
 To start the server using the following command :
