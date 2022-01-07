@@ -6,6 +6,16 @@ A simple MongoDB, ExpressJS,React and NodeJS Fullstack To-do list application
 ) 
 
 ---
+
+
+## Screenshots 
+
+![Entry results screenshot](./client/screenshots/screenshot-3-img.png)
+*Front-end*
+![Entry results screenshot](./server/screenshots/screenshot-1-img.png)
+*Back-end*
+
+---
  
 ## Prerequisites 
 *    [NodeJS](https://nodejs.org/en/)

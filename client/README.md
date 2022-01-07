@@ -8,6 +8,22 @@ A simple client using React
 
 ---
 
+
+## Screenshots 
+
+![Get data screenshot](./screenshots/screenshot-1-img.png)
+*Adding an entry*
+
+
+![Post screenshot](./screenshots/screenshot-2-img.png)
+*Entry added. Writing a second entry*
+
+
+![Entry results screenshot](./screenshots/screenshot-3-img.png)
+*Second entry added.*
+
+---
+
 ## Prerequisites 
 * [NodeJS](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/atlas/database)
@@ -47,19 +63,5 @@ $ npm run build
 
 ### You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
-
-## Screenshots 
-
-![Get data screenshot](./screenshots/screenshot-1-img.png)
-*Adding an entry*
-
-
-![Post screenshot](./screenshots/screenshot-2-img.png)
-*Entry added. Writing a second entry*
-
-
-![Entry results screenshot](./screenshots/screenshot-3-img.png)
-*Second entry added.*
 
 
