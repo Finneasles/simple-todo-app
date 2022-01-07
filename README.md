@@ -22,9 +22,9 @@ A simple MongoDB, ExpressJS,React and NodeJS Fullstack To-do list application
 
 
 ## Tools
-* [Postman](https://www.postman.com/downloads/)
 * [MongoDB Atlas Database](https://www.postman.com/downloads/)
 * [Heroku for NodeJS](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+* [Postman](https://www.postman.com/downloads/)
 
 
 ## Setup 
