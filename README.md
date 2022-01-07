@@ -1,6 +1,6 @@
 A simple MongoDB, ExpressJS,React and NodeJS Fullstack To-do list application
 ==============
-### [Server Repository](https://github.com/Finneasles/simple-mern-todo-app-server) | [Client Repository](https://github.com/Finneasles/simple-mern-todo-app-client) 
+### [Server Repository](https://github.com/Finneasles/simple-todo-app-server) | [Client Repository](https://github.com/Finneasles/simple-todo-app-client) 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Finneasles/simple-mern-todo-app-client
 ) 

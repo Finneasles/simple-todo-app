@@ -1,7 +1,7 @@
 A simple client using React
 ==============
 
-### [Live Demo](https://simple-todolist-mern.netlify.app/) | [Server Repository](https://github.com/Finneasles/simple-mern-todo-app-server)
+### [Live Demo](https://simple-todolist-mern.netlify.app/) | [Server Repository](https://github.com/Finneasles/simple-todo-app-server)
 
 [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Finneasles/simple-mern-todo-app-client
 ) 
